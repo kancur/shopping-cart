@@ -1,0 +1,28 @@
+.product {
+  max-width: 300px;
+  display: flex;
+  font-weight: 300;
+  flex-direction: column;
+}
+
+.product h2 {
+  font-size: 1.3em;
+}
+
+.product input[type="number"]::-webkit-inner-spin-button,
+.product input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+.product .add-to-card {
+  margin-top: auto;
+  align-self: center;
+}
+
+.product .price {
+  font-size: 26px;
+  background-color: whitesmoke;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 5px;
+}

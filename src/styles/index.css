@@ -19,3 +19,12 @@ img {
   width: 100%;
   height: auto;
 }
+
+.box {
+  padding: 20px;
+  box-shadow: 1px 1px 6px #00000024;
+}
+
+h1, h2, h3 {
+  font-weight: 300;
+}

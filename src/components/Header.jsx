@@ -6,12 +6,12 @@ import { IoCart } from "react-icons/io5";
 export default function Header() {
   return (
     <header>
-      <img class="logo" src={Logo} alt="logo" />
-      <div class="nav">
+      <img className="logo" src={Logo} alt="logo" />
+      <div className="nav">
         <NavLink exact to="/" activeClassName="active">Home</NavLink>
         <NavLink to="/shop" activeClassName="active">Shop</NavLink>
       </div>
-      <div class="cart-icon-wrapper">
+      <div className="cart-icon-wrapper">
         <IoCart color="#b1b1b1"/>
       </div>
     </header>

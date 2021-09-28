@@ -1,4 +1,4 @@
-import FeaturedImage from '../images/homepage-main.jpg'
+import FeaturedImage from '../../images/homepage-main.jpg'
 
 export default function Homepage() {
   return (
