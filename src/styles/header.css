@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  font-size: 1.5em;
+  background-color: #f9f9f9;
+  min-height: 120px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav > a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #b1b1b1;
+}
+
+.nav > a:not(:last-child) {
+  margin-right: 25px;
+}
+
+.nav {
+  margin: 20px;
+}
+
+.nav .active {
+  text-decoration: overline;
+}
+
+.logo {
+  max-width: 260px;
+  margin: 15px;
+}
+
+.cart-icon-wrapper {
+  display: flex;
+}
