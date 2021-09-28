@@ -1,6 +1,6 @@
-import '../../styles/shop.css'
-import products from '../../products/products'
-import Product from '../Product';
+import '../styles/shop.css'
+import products from '../productsMock/products'
+import Product from '../components/Product';
 
 export default function Shop() {
   return (
@@ -8,7 +8,7 @@ export default function Shop() {
       <h1>Our products</h1>
       <div className="products-wrapper">
         {products.map((product) => (
-          <Product product={product} />
+          <Product key={product.title} product={product} />
         ))}
       </div>
     </>
