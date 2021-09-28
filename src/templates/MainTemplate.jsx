@@ -1,4 +1,5 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Homepage from "../pages/Homepage";
 import Shop from "../pages/Shop";
@@ -14,6 +15,7 @@ export default function MainTemplate({ children }) {
         <Route path="/shop" component={Shop} />
         <Route path="/cart" component={ShoppingCart} />
       </main>
+      <Footer />
     </>
   );
 }

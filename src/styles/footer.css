@@ -1,7 +1,8 @@
 footer {
+  margin-top: 40px;
   display: flex;
-  font-size: 1.5em;
-  background-color: #d3d3d3;
+  font-weight: 300;
+  background-color: #f3f3f3;
   min-height: 120px;
   align-items: center;
   justify-content: center;

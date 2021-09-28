@@ -8,7 +8,7 @@ export default function Shop() {
       <h1>Our products</h1>
       <div className="products-wrapper">
         {products.map((product) => (
-          <Product key={product.title} product={product} />
+          <Product key={product.id} product={product} />
         ))}
       </div>
     </>

@@ -4,6 +4,7 @@ import Image3 from "./3.jpg";
 
 const products = [
   {
+    id: 245,
     imgSrc: Image1,
     title: "Women's dress",
     description:
@@ -11,6 +12,7 @@ const products = [
     price: 124,
   },
   {
+    id: 12,
     imgSrc: Image2,
     title: "Child dress",
     description:
@@ -18,6 +20,7 @@ const products = [
     price: 29.99,
   },
   {
+    id: 5325,
     imgSrc: Image3,
     title: "Some dress",
     description:
