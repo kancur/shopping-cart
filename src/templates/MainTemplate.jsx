@@ -6,7 +6,7 @@ import Shop from "../pages/Shop";
 import ShoppingCart from "../pages/ShoppingCart";
 import '../styles/mainTemplate.css'
 
-export default function MainTemplate({ children }) {
+export default function MainTemplate() {
   return (
     <>
       <Header />

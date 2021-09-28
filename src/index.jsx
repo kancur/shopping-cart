@@ -1,11 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './styles/index.css';
-import Routes from './Routes';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./styles/index.css";
+import Routes from "./Routes";
+import StoreProvider from "./components/dataStore";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Routes />
+    <StoreProvider>
+      <Routes />
+    </StoreProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
