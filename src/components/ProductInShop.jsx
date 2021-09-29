@@ -1,6 +1,7 @@
 import trimText from "../helpers/trimText";
 import { DESCRIPTION_LENGTH } from "../CONSTANTS";
 import "../styles/product.css";
+import { AddToCardManager } from "./AddToCardManager";
 
 export default function Product({ product }) {
   return (
@@ -11,16 +12,9 @@ export default function Product({ product }) {
         <span className="price">${product.price}</span>
       </div>
       <p>{trimText(product.description, DESCRIPTION_LENGTH)}</p>
-      <AddToCardManager />
+      <AddToCardManager product={product} />
     </div>
   );
 }
 
-function AddToCardManager() {
-  return (
-    <div className="add-to-card">
-      <input type="number" min={1} max={10} defaultValue={1} />
-      <button type="button">Add to cart</button>
-    </div>
-  );
-}
+

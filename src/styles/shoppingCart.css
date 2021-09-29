@@ -1,0 +1,27 @@
+.product-basket img {
+  max-width: 50px;
+}
+
+.product-basket {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  padding: 10px;
+}
+
+.product-basket:not(:last-child) {
+  margin-bottom: 5px;
+  border-bottom: 1px;
+}
+
+.cart-right-side {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.product-basket input[type="number"]::-webkit-inner-spin-button,
+.product-basket input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}
