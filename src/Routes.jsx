@@ -5,7 +5,7 @@ import MainTemplate from "./templates/MainTemplate";
 
 const Routes = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Route path="/" component={MainTemplate} />
     </BrowserRouter>
   );
