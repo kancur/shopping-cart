@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9fe4e08c.chunk.css",
+    "main.js": "/static/js/main.7db7f56f.chunk.js",
+    "main.js.map": "/static/js/main.7db7f56f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.35de9736.js",
+    "runtime-main.js.map": "/static/js/runtime-main.35de9736.js.map",
+    "static/js/2.e47c3399.chunk.js": "/static/js/2.e47c3399.chunk.js",
+    "static/js/2.e47c3399.chunk.js.map": "/static/js/2.e47c3399.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.9fe4e08c.chunk.css.map": "/static/css/main.9fe4e08c.chunk.css.map",
+    "static/js/2.e47c3399.chunk.js.LICENSE.txt": "/static/js/2.e47c3399.chunk.js.LICENSE.txt",
+    "static/media/1.2d2ec428.jpg": "/static/media/1.2d2ec428.jpg",
+    "static/media/2.96e10253.jpg": "/static/media/2.96e10253.jpg",
+    "static/media/3.e893f9ef.jpg": "/static/media/3.e893f9ef.jpg",
+    "static/media/homepage-main.3c90ab1b.jpg": "/static/media/homepage-main.3c90ab1b.jpg",
+    "static/media/zulu-logo.64cd841c.png": "/static/media/zulu-logo.64cd841c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35de9736.js",
+    "static/js/2.e47c3399.chunk.js",
+    "static/css/main.9fe4e08c.chunk.css",
+    "static/js/main.7db7f56f.chunk.js"
+  ]
+}
